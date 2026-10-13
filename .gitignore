@@ -1,7 +1,85 @@
-/ExDark
-/ExDark_Annno
-/LoL-Dataset
-/huggingface.ipynb
-/yolo_dataset
-# /Runs/exdark_enhanced_1
-/.DS_Store
+# ==========================================
+# Datasets (Raw, Processed, and Archives)
+# ==========================================
+# Raw ExDark dataset images and annotations
+ExDark/
+ExDark_Annno/
+ExDark_Anno/
+ExDark_Annotations/
+
+# Low-Light (LOL) Dataset (CycleGAN training)
+LoL-Dataset/
+lol_dataset/
+LoL_Dataset/
+LOL-Dataset/
+
+# Processed & Generated YOLO Datasets (including enhanced images)
+yolo_dataset/
+yolo_dataset*/
+
+# Compressed dataset archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# ==========================================
+# YOLO & Ultralytics Artifacts & Inference
+# ==========================================
+# Detection and inference visual outputs (e.g. 5,000+ generated evaluation images)
+Runs/detect/
+runs/detect/
+runs/
+**/runs/
+
+# Ultralytics label cache files (e.g. train.cache, val.cache)
+*.cache
+
+# Pre-trained base weights auto-downloaded by Ultralytics
+yolov8*.pt
+yolo11*.pt
+
+# ==========================================
+# Python & Jupyter Notebook Artifacts
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook autosave checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Scratch exploration notebooks
+huggingface.ipynb
+scratch*.ipynb
+
+# ==========================================
+# Virtual Environments & Dependencies
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+*.egg-info/
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+
+# IDE and Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
